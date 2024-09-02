@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page_banners",
+  "info": {
+    "singularName": "home-page-banner",
+    "pluralName": "home-page-banners",
+    "displayName": "home-page-banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
